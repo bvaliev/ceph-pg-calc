@@ -1,0 +1,15 @@
+<Window 
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+       Title="CEPH_pg_calc" Height="300" Width="300">
+    <Grid>
+        <Label Content="CEPH PG calc" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxOSD" HorizontalAlignment="Left" Height="23" Margin="51,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="textBoxSize" HorizontalAlignment="Left" Height="23" Margin="202,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <Label Content="/" HorizontalAlignment="Left" Margin="135,64,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label x:Name="labelResult" Content="" HorizontalAlignment="Left" Margin="110,150,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button Content="Nearest power of 2" HorizontalAlignment="Left" Margin="80,105,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click"/>
+        <Label Content="OSDs" HorizontalAlignment="Left" Margin="52,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="Size" HorizontalAlignment="Left" Margin="202,33,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window> 
